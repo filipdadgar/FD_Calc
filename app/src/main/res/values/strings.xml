@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">FD_Calc</string>
+    <string name="calculator_display_default">0</string>
+    <string name="calculator_clear">C</string>
+    <string name="calculator_divide">÷</string>
+    <string name="calculator_multiply">×</string>
+    <string name="calculator_delete">⌫</string>
+    <string name="calculator_7">7</string>
+    <string name="calculator_8">8</string>
+    <string name="calculator_9">9</string>
+    <string name="calculator_subtract">-</string>
+    <string name="calculator_4">4</string>
+    <string name="calculator_5">5</string>
+    <string name="calculator_6">6</string>
+    <string name="calculator_add">+</string>
+    <string name="calculator_1">1</string>
+    <string name="calculator_2">2</string>
+    <string name="calculator_3">3</string>
+    <string name="calculator_equals">=</string>
+    <string name="calculator_0">0</string>
+    <string name="calculator_dot">.</string>
+    <string name="footer_label">v1.0 • by Filip Dadgar</string>
 </resources>

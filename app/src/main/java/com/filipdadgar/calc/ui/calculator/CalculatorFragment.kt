@@ -62,6 +62,19 @@ class CalculatorFragment : Fragment() {
         binding.btnClear.setOnClickListener { viewModel.onClear() }
         binding.btnDelete.setOnClickListener { viewModel.onDelete() }
 
+        // Ensure footer label is always visible above navigation bar
+        androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
+            val ime = insets.getInsets(androidx.core.view.WindowInsetsCompat.Type.ime())
+            val nav = insets.getInsets(androidx.core.view.WindowInsetsCompat.Type.navigationBars())
+            val bottomInset = maxOf(ime.bottom, nav.bottom)
+            binding.footerLabel.setPadding(
+                binding.footerLabel.paddingLeft,
+                binding.footerLabel.paddingTop,
+                binding.footerLabel.paddingRight,
+                36 + bottomInset // 36dp + system bar
+            )
+            insets
+        }
         return binding.root
     }
 
