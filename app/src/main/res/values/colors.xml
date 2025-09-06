@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1976D2</color> <!-- Blue 700 -->
+    <color name="primary_dark">#004BA0</color> <!-- Blue 900 -->
+    <color name="accent">#FFC107</color> <!-- Amber 500 -->
+    <color name="button_bg">#F5F5F5</color> <!-- Light gray for buttons -->
+    <color name="button_text">#222222</color>
+    <color name="operator_bg">#1976D2</color>
+    <color name="operator_text">#FFFFFF</color>
+    <color name="equals_bg">#FFC107</color>
+    <color name="equals_text">#222222</color>
+    <color name="display_bg">#FFFFFF</color>
+    <color name="display_text">#222222</color>
+    <color name="clear_bg">#FF5252</color> <!-- Red 500 -->
+    <color name="clear_text">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
