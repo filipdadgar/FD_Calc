@@ -20,6 +20,10 @@ FD_Calc is a modern, minimal calculator app for Android, built as a sample proje
   - ViewBinding
   - Material Components for Android
 
+## Screenshots
+![Screenshot 1](screenshots/image.png)
+![Screenshot 2](screenshots/image2.png)
+
 ## Project Structure
 - `MainActivity.kt`: Hosts the navigation and bottom navigation bar
 - `ui/calculator/CalculatorFragment.kt`: Main calculator UI and logic
